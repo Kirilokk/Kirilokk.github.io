@@ -1,0 +1,274 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30, 25, 19);
+}
+header{
+  height: 20%;
+}
+header p{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+.undertext{
+    color: rgb(255, 147, 2);
+    text-align: center;
+    font-size: 25px;
+    margin:0;
+    line-height: 10px;
+    letter-spacing: 0;
+    
+}
+.titleimg{
+    border-radius: 10px;
+    position:absolute;
+    top:2px;
+    left:15%;
+   }
+header img{
+    width: 100px;
+    height: 150px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.menu{
+    position: relative;
+    margin-top: 40px;
+    width: 1100px;
+    padding: 25px 0 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+ul{
+    
+    padding:0;
+    z-index: 2;
+}
+.menu li{
+    list-style-type: none;
+    width: 200px;
+    display: inline;
+}
+
+.menu a{
+    background-color: #ff9302;
+    line-height: 30px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color:black;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: bold;
+}   
+a:visited { text-decoration: none } 
+a:hover {
+    color: white;
+   } 
+
+.main{
+    width:100%;
+    border:wheat 2px;
+    z-index: 1;
+ 
+}
+.backgroundimage{
+    position: relative;
+    background-image:url(img\background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1100px;
+    width: 100%;
+    top:30px;
+    z-index: 1;
+}
+.contrainer{
+    width: 100%;
+    margin-top: 30px;
+}
+.textContainer{
+    max-width:60%;
+    height: 800px;
+}
+.textContainer p{
+    margin-left: 120px;
+}
+.someinfoTitle{
+    color:#ff9302;
+    font-size: 27px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.sometext{
+    margin-top: 20px;
+    color:white;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 15px;
+}
+
+.imgContainer{
+    margin-left: 120px;
+}
+.imgContainer img{
+    margin-top:60px;
+    width:  1000px;
+    height: 210px;
+}
+footer{
+    margin-left: 120px;
+    width:  1000px;
+    font-size: 24px;
+    height: 40px;
+    color:#ff9102ce;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 25px 10px;
+    margin-top:40px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.bords{
+    position: fixed;
+    width: 20%;
+    height:1100px;
+    right:3%;
+    top:6%;
+    z-index: 3;
+}
+.firstBord{
+    background-color: rgb(230,228,216);
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.secondBord{
+    background-color: rgb(217,212,192);
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.ThirdBord{
+    background-color: rgb(195,198,174);
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+
+.questionMark{
+    display: block;
+    box-sizing: content-box;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff9102ce;
+    left:8%;
+    top:7%;
+    text-align: center;
+  }
+
+  .questionMark p{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    padding: 6px;
+  }
+
+  .FirstText{
+    position: relative;
+    font-size: 25px; 
+    left: 25%;
+    top:11%;
+    margin:0; 
+    font-weight: 900;
+   }
+   
+  .FirstMainText{
+    position: relative;
+    font-size: 20px; 
+    left:8%;
+    top:25%;
+    margin:0; 
+    width: calc(100% - 37px);
+    font-weight: 00;
+   }
+  
+.Donate{
+    position: relative;
+    top:20%;
+    left:8%;
+    width:325px;
+    height: 65px;
+    background-color: #e99f00ce;
+    border: none;
+    font-size: 26px;
+    color:white;
+}  
+.Donate:hover {
+      background-color: #e93600ce;
+    }
+.bigBut{
+        position: relative;
+        top:20%;
+        left:8%;
+        width:325px;
+        height: 65px;
+        background-color: #e93600ce;
+        border: none;
+        font-size: 25px;
+        color:white;
+    }  
+.bigBut:hover {
+    background-color: #e99f00ce;
+     }
+
+.facebook{
+        position: relative;
+        margin-top: 10px;
+        top:20%;
+        left:8%;
+        width:150px;
+        height: 50px;
+        background-color: #2b00e9ce;
+        border: none;
+        font-size: 22px;
+        color:white;
+        float: left;
+        margin-right: 20px;
+    }  
+    button img{
+        top:50%;
+        width: 20px;
+        height: 30px;
+    }
+
+ .twitter{
+        margin-top: 10px;
+        position: relative;
+        top:20%;
+        left:8%;
+        width:150px;
+        height: 50px;
+        background-color: rgb(77,145,255);
+        border: none;
+        font-size: 22px;
+        color:white;
+    }

@@ -8,7 +8,6 @@
         left: 30%;
        }
        .textContainer{
-        height:900px;
         max-width:70%;
     }
     .questionMark{
@@ -54,14 +53,15 @@
     }
     .imgContainer img{
         margin-top:0;
-        width:  800px;
         height: 210px;
     }
     footer{
-        width:  800px;
         font-size: 18px;
-        height: 30px;
         margin-bottom: 80px;
+    }
+    .footerinfo{
+        max-width: 70%;
+        margin-bottom: 130px;
     }
   }
   
@@ -78,7 +78,6 @@
         font-size: 20px;
     }   
     .textContainer{
-        height:900px;
         max-width:70%;
     }
     .someinfoTitle{
@@ -133,16 +132,18 @@
         font-size: 16px;
     }
     .imgContainer img{
-        width:  600px;
         height: 210px;
     }
 
     footer{
-        width:  600px;
         font-size: 18px;
-        height: 30px;
         margin-bottom: 80px;
     }
+    .footerinfo{
+        max-width: 70%;
+        margin-bottom: 130px;
+    }
+
     }
   @media (max-width: 768px){
     .backgroundimage{
@@ -157,7 +158,7 @@
     .bords{
         position: relative;
         width: 100%;
-        height: 250px;
+        height: 300px;
         margin-top: 20px;
     }
     .firstBord{
@@ -208,7 +209,6 @@
         display: block;
     }
     .textContainer{
-        height:900px;
         max-width:90%;
     }
     .someinfoTitle{
@@ -223,18 +223,16 @@
     }
     .contrainer{
         width: 100%;
-        height: 900px;
     }
     .imgContainer img{
-        width:  550px;
         height: 210px;
     }
 
     footer{
-        width:  550px;
-        font-size: 18px;
-        height: 30px;
         margin-bottom: 80px;
+    }
+    .footerinfo{
+        max-width: 90%;
     }
     header img{
         width: 60px;
@@ -281,7 +279,6 @@
 
     .textContainer{
         max-width:100%;
-        height: 800px;
     }
     .textContainer p{
         margin-left: 20px;
@@ -304,21 +301,21 @@
         display: none;
     }
     .imgContainer img{
-        width:  440px;
         height: 210px;
     }
     footer{
-        
-        width:  440px;
         font-size: 18px;
-        height: 30px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        margin-left: 10px;
+        margin-bottom: 80px;
+    }
+    .footerinfo{
+        max-width: 100%;
+        margin-bottom: 130px;
+    }
+    footer p{
+        margin-left: 0;
     }
     .contrainer{
         width: 100%;
-        height: 1300px;
     }
   }
 
@@ -341,7 +338,7 @@
         line-height: 10px;
     }  
     header img{
-        width: 30px;
+        width: 40px;
         height: 80px;
     }
     .titleimg{
@@ -358,7 +355,6 @@
 
     .textContainer{
         max-width:100%;
-        height: 800px;
     }
     .textContainer p{
         margin-left: 20px;
@@ -377,19 +373,18 @@
         display: none;
     }
     .imgContainer img{
-        width:  280px;
         height: 210px;
     }
     footer{
-        width:  280px;
-        font-size: 15px;
-        height: 30px;
-        margin-top: 70px;
         margin-bottom: 70px;
         margin-left: 10px;
     }
+    footer p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
     .contrainer{
         width: 100%;
-        height: 1000px;
     }
   }

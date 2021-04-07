@@ -38,9 +38,12 @@ font-size: 120px;
     display: flex;
     justify-content: center;
 }
-.img-cont img{       /*Cпробував без маргін(flexxx) але після появи тексту все ламається*/
+.img-cont img:last-child{
+    margin: 15px 0 0 0;
+}
+.img-cont img{     
     width: 35px;
-    height: 35px;
+    height: 35px;   
     margin: 15px 15px 0 0;
 }
 

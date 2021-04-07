@@ -165,7 +165,14 @@
         display: grid;
     }
   
-
+    .semiFot2 nav{
+        width: 20%;
+        margin: 0 0 0 15px;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 2px;
+        grid-template-columns: repeat(2, 1fr);
+    }
        .menu{
         grid-area: menu;
         grid-column: 1;
@@ -174,6 +181,34 @@
         align-items: center;  
         flex-direction: row; 
         background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        #A1{
+            grid-row: 1; 
+            grid-column: 1/ span 2; 
+        }
+        #A2{
+            grid-row: 2; 
+            grid-column: 1/span 2; 
+        }
+        #A3{
+            grid-row: 3; 
+            grid-column:2; 
+        }
+        #A4{
+            grid-row: 3; 
+            grid-column: 1 
+        }
+        #A5{
+            grid-row: 2; 
+            grid-column:2; 
+        }
+        #A6{
+            grid-row: 3; 
+            grid-column:1; 
+        }
+        #A7{
+            grid-row: 5; 
+            grid-column:1/span 2; 
         }
     
         .menu a {
@@ -210,35 +245,37 @@
         .Calendar p {
             font-size: 15px;
         }
+
 }
 @media only screen and (max-width:320px){
+    .img-cont img{     
+        width: 25px;
+        height: 25px;   
+        margin: 15px 15px 0 0;
+    }
     .grid-container{
         grid-template-rows: 0.5fr 0.25fr 3fr 0.5fr;
-    }
-    .semiFot2 nav{
-        width: 20%;
-        margin: 0 0 0 15px;
-        display: grid;
-        grid-template-rows: repeat(5, 1fr);
-        grid-gap: 2px;
-        grid-template-columns: repeat(2, 1fr);
     }
     .content{
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
         "Item1 Item1"
-        "Item6 Item5"
+        "Item6 Item6"
         "Item7 Item7"
         "Item9 Item9"
         "Item3 Item4"
         ;
      } 
+     
      .item3{
         display: grid;
     }
      .item4{
         display: grid;
+    }
+    .item5{
+        display: none;
     }
     .item8{
         display: none;
@@ -266,34 +303,6 @@
     }
     .footerText1 p {
         margin: 0 0 0 15px;
-    }
-    #A1{
-        grid-row: 1; 
-        grid-column: 1/ span 2; 
-    }
-    #A2{
-        grid-row: 2; 
-        grid-column: 1/span 2; 
-    }
-    #A3{
-        grid-row: 3; 
-        grid-column:2; 
-    }
-    #A4{
-        grid-row: 3; 
-        grid-column: 1 
-    }
-    #A5{
-        grid-row: 2; 
-        grid-column:2; 
-    }
-    #A6{
-        grid-row: 3; 
-        grid-column:1; 
-    }
-    #A7{
-        grid-row: 5; 
-        grid-column:1/span 2; 
     }
     .semiFot3 li {
         font-size: 15px;

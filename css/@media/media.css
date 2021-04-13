@@ -1,6 +1,17 @@
+@media (max-width: 1366px) {
+    .menu a{
+        width: 165px;
+    }   
+    .Donate {
+        font-size: 22px;
+    }
+    .bigBut{
+        font-size: 22px;
+
+    }
+}
 @media (max-width: 1280px) {
     .Donate{
-        width:215px;
         font-size: 22px;
     }  
     .FirstText{ 
@@ -23,7 +34,6 @@
         width: calc(100% - 20px);
        }
     .bigBut{
-        width:215px;
         font-size: 22px;
     }  
     .facebook{
@@ -46,7 +56,7 @@
         width: 150px;}
     
     .menu a{
-        width: 150px;
+        width: 140px;
     }   
     .menu{
         width: 900px;
@@ -100,13 +110,11 @@
     }
 
     .Donate{
-    width:180px;
-    font-size: 18px;
-    height: 45px;
+        padding:10px;
     } 
     .bigBut{
-    width:180px;
-    height: 45px;
+        padding:10px;
+
     }  
 
     .FirstText{
@@ -239,7 +247,9 @@
         height: 110px;
         border-radius: 0 0 10px 10px;
     }
-
+    .Donate{
+        font-size: 18px;
+         }  
     .bigBut{
        font-size: 18px;
         }  

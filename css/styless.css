@@ -193,33 +193,35 @@ footer p{
     font-size: 30px;
     color:white;
     padding: 6px;
+
   }
 
   .FirstText{
-    position: relative;
+    position: relative; 
     font-size: 25px; 
     left: 25%;
     top:11%;
     margin:0; 
     font-weight: 900;
+    margin-bottom:50px;
+    margin-left: 10px;
    }
    
   .FirstMainText{
     position: relative;
     font-size: 20px; 
-    left:8%;
-    top:25%;
+    text-align: center;
     margin:0; 
-    width: calc(100% - 37px);
+    padding:10px;
     font-weight: 00;
    }
   
 .Donate{
     position: relative;
-    top:20%;
-    left:8%;
-    width:325px;
-    height: 65px;
+    width:90%;
+    margin: 0 15px;
+    padding:20px;
+    text-align: center;
     background-color: #e99f00ce;
     border: none;
     font-size: 26px;
@@ -230,10 +232,9 @@ footer p{
     }
 .bigBut{
         position: relative;
-        top:20%;
-        left:8%;
-        width:325px;
-        height: 65px;
+        width:90%;
+        margin: 0 15px;
+        padding:20px;
         background-color: #e93600ce;
         border: none;
         font-size: 25px;
@@ -246,13 +247,11 @@ footer p{
 .facebook{
         position: relative;
         margin-top: 10px;
-        top:20%;
-        left:8%;
-        width:150px;
-        height: 50px;
+        padding:15px 0;
+        width:45%;
         background-color: #2b00e9ce;
         border: none;
-        font-size: 22px;
+        font-size: 20px;
         color:white;
         float: left;
         margin-right: 20px;
@@ -263,13 +262,17 @@ footer p{
         height: 30px;
     }
 
+    .buttonCOnt{
+        display: flex;
+        justify-content: center;
+       
+    }
+
  .twitter{
         margin-top: 10px;
         position: relative;
-        top:20%;
-        left:8%;
-        width:150px;
-        height: 50px;
+        padding:10px 0;
+        width:45%;
         background-color: rgb(77,145,255);
         border: none;
         font-size: 22px;
